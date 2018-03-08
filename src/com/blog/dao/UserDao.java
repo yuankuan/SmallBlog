@@ -20,9 +20,24 @@ public class UserDao extends DataManager{
 		user = new UserDatas();
 		inte = new InteDatas();
 	}
+	/**
+	 * 检查用户是否存在
+	 * @param username
+	 * @return
+	 */
 	public int checkUserName(String username) {
 		String sql = "select count(1) from user where name = ?";
 		return query(sql, new ParamSet(username), inte);
+	}
+	/**
+	 * 检查用户账号密码是否存在
+	 * @param name
+	 * @param password
+	 * @return
+	 */
+	public int checkUserPassword(String name,String password) {
+		String sql = "select count(1) from user where name = ? and password = ?";
+		return query(sql, new ParamSet(name,password),inte);
 	}
 	public class UserDatas implements RowDatas<User> {
 
