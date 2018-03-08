@@ -1,4 +1,4 @@
-package com.blog.controller.impl;
+package com.blog.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
