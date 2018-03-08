@@ -24,12 +24,12 @@
 						<li><input type="password" class="logininput" name="password"></li>
 						<br />
 						<li><input type="checkbox" value="记住我的登录信息">记住我的登录信息
-							<button class="btn btn-primary loginbutton">注册</button></li>
+							<button class="btn btn-primary loginbutton">登录</button></li>
 					</ul>
 				</div>
 			</form>
 			</div>
-			<p id="bottom"><a href="user/register">注册</a> | <a href="#">忘记密码?</a></p>
+			<p id="bottom"><a href="#">注册</a> | <a href="#">忘记密码?</a></p>
 		</div>
 	</body>
 </html>

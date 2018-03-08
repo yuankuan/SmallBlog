@@ -45,14 +45,13 @@ public class ServletImpl extends HttpServlet {
 	}
 	@Override
 	public void service(ServletRequest arg0, ServletResponse arg1) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		super.service(arg0, arg1);
 	}
 	public final void forward(String viewName) throws ServletException, IOException {
 		req.get().getRequestDispatcher("/WEB-INF/"+viewName+".jsp").forward(req.get(), resp.get());
 	}
 	public final void redirect(String uri) throws IOException {
-		resp.get().sendRedirect(this.contextPath);
+		resp.get().sendRedirect(this.contextPath + uri);
 	}
 	public final void redirect(String uri,HashMap<String,Object> params) throws IOException {
 		req.get().getSession().setAttribute(this.PARAM_KEY, params);

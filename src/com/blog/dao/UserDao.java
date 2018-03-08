@@ -39,6 +39,11 @@ public class UserDao extends DataManager{
 		String sql = "select count(1) from user where name = ? and password = ?";
 		return query(sql, new ParamSet(name,password),inte);
 	}
+	
+	public int insertUser(String name,String password) {
+		String sql = "insert into user(name,password) value(?,?)";
+		return updateExecuted(sql,new ParamSet(name,password));
+	}
 	public class UserDatas implements RowDatas<User> {
 
 		@Override

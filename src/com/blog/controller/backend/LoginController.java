@@ -1,6 +1,7 @@
 package com.blog.controller.backend;
 
 import java.io.IOException;
+import java.util.HashMap;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -44,6 +45,6 @@ public class LoginController extends ServletImpl {
 		}
 		req.setAttribute("success", name);
 		req.getSession().setAttribute("name", name);
-		forward("backend/main");
+		redirect("/user/main");
 	}
 }
