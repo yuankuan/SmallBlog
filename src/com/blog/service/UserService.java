@@ -30,6 +30,12 @@ public class UserService {
 	public int checkUserPassword(String name,String password) {
 		return userDao.checkUserPassword(name, password);
 	}
+	/**
+	 * 添加新用户
+	 * @param name
+	 * @param password
+	 * @return
+	 */
 	public int insertUser(String name, String password) {
 		return userDao.insertUser(name, password);
 	}

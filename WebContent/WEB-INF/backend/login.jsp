@@ -24,7 +24,7 @@
 						<li><input type="password" class="logininput" name="password"></li>
 						<br />
 						<li><input type="checkbox" value="记住我的登录信息">记住我的登录信息
-							<button class="btn btn-primary loginbutton">注册</button></li>
+							<button class="btn btn-primary loginbutton">登录</button></li>
 					</ul>
 				</div>
 			</form>
