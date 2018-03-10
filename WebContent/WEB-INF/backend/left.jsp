@@ -11,11 +11,13 @@
 <body>
 	<div id="left">
 		<ol id="nav-ol">
-			<li><a href="">写文章</a></li>
-			<li><a href="">草稿箱</a></li>
-			<li><a href="">所有文章</a></li>
-			<li><a href="">标签库</a></li>
-			<li><a href="">评论</a></li>
+			<li><a href="main/show" target="right">首页</a></li>
+			<li><a href="" target="right">个人信息</a></li>
+			<li><a href="main/write_article" target="right">写文章</a></li>
+			<li><a href="" target="right">草稿箱</a></li>
+			<li><a href="" target="right">所有文章</a></li>
+			<li><a href="" target="right">标签库</a></li>
+			<li><a href="" target="right">评论</a></li>
 		</ol>
 	</div>
 </body>

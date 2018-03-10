@@ -8,11 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.blog.controller.ServletImpl;
-@WebServlet("/user/main")
-public class MainController extends ServletImpl {
+@WebServlet("/main/show")
+public class ShowContoller extends ServletImpl {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		
-		forward("backend/main");
+		forward("backend/show");
 	}
 }

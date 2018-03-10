@@ -12,7 +12,7 @@
 	<frame src="main/header" name="top" />
 	<frameset cols="160px,*">
 		<frame src="main/left" name="left" />
-		<frame src="main/write_article" name="right" />
+		<frame src="main/show" name="right" />
 	</frameset>
 </frameset>
 </html>
