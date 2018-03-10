@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.blog.controller.ServletImpl;
 
 @WebServlet("/main/header")
-public class Header extends ServletImpl {
+public class HeaderController extends ServletImpl {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		forward("backend/header");

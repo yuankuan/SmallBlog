@@ -1,0 +1,30 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	height:0px;
+}
+#left{
+	width:160px;
+	height:600px;
+	background-color:#23282D;
+	color:white;
+}
+#nav-ol{
+	margin:0px;
+	padding:0px;
+}
+#nav-ol li{
+	list-style:none;
+	width:100%;
+	height:40px;
+	line-height:40px;
+	float:left;
+	text-align:center;
+}
+#nav-ol li:hover{
+	background-color:#0073AA;
+}
+#nav-ol li a{
+	color:white;
+	text-decoration: none;
+}

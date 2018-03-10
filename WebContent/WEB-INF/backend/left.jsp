@@ -5,15 +5,18 @@
 <head>
 <base href="${cxt }/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" href="css/backend/header.css" type="text/css">
-<title>头部</title>
+<link rel="stylesheet" href="css/backend/left.css" type="text/css">
+<title>左侧栏</title>
 </head>
 <body>
-	<div id="header">
-		<div>
-			<label>${name }</label>
-		</div>
-
+	<div id="left">
+		<ol id="nav-ol">
+			<li><a href="">写文章</a></li>
+			<li><a href="">草稿箱</a></li>
+			<li><a href="">所有文章</a></li>
+			<li><a href="">标签库</a></li>
+			<li><a href="">评论</a></li>
+		</ol>
 	</div>
 </body>
 </html>
